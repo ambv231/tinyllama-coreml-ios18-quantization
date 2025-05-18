@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import coremltools as ct
 
 # === CONFIGURATION ===
-model_path = "."  # Dossier téléchargé depuis HF (ajuste le chemin)
+model_path = "."
 prompt = "Bonjour, comment vas-tu aujourd'hui ?"
 float16_model_path = "float16_model.mlpackage"
 
